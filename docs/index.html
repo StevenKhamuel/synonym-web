@@ -10,7 +10,16 @@
   </head>
   <body>
     <h1>Welcome to Synonym Web!</h1>
-    <input type="text" />
-    <button>Search!</button>
+    <input id="input" type="text" />
+    <button onclick="search()">Search!</button>
+    <script>
+      const sanitize = (word) => {
+        return word;
+      }
+      const search = () => {
+        let word = document.getElementById("input").value;
+        location.href = "/words/" + sanitize(word) + ".html";
+      }
+    </script>
   </body>
 </html>
