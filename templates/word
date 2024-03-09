@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A website to view the nuances between words" />
+    <meta name="keywords" content="words,synonyms,thesaurus" />
+    <meta name="author" content="Steven Khamuel" />
+    <title>Synonym Web - !!!!WORD NAME HERE!!!!</title>
+  </head>
+  <body>
+    <h1>!!!!WORD NAME!!!!</h1>
+    <h2>Definition</h2>
+    <p>!!!!Definition!!!!</p>
+    <h2>Word Comparison</h2>
+    <ul>
+      <li><strong>Current Word</strong> implies blah blah</li>
+      <li><strong><a href="other words location">Other word</a></strong> implies blah blah</li>
+    </ul>
+    <h2>Sources</h2>
+    Sources and Citations
+  </body>
+</html>
